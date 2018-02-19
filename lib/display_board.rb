@@ -3,6 +3,6 @@
 def display_board (board)
   pipe = "|"
   border = "-----------"
-  puts (" #{board[0]} " + pipe + " #{board[0]} ")
+  puts (" #{board[0]} " + pipe + " #{board[0]} " + pipe + " #{board[0]} " + "\n")
   
 end
